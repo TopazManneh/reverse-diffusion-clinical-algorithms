@@ -1,0 +1,11 @@
+domain_category,governing_body,repository,what_it_holds,python_access_method
+National Guidance (Scotland),Healthcare Improvement Scotland (HIS) / SIGN,sign.ac.uk,"Scottish national clinical guidelines, Scottish diabetes and fracture risk protocols",BeautifulSoup crawl on sign.ac.uk/our-guidelines/
+National Guidance (UK-Wide),NICE,Clinical Guidance & CKS,"Clinical Knowledge Summaries, primary care algorithms, technology appraisals",Scrape cks.nice.org.uk and /guidance endpoints
+Medicines & Devices Regulator,MHRA,Drug Safety Alerts & Yellow Card,"Pharmacogenetic requirements (e.g. HLA-B*1502 for carbamazepine, G6PD deficiency warnings, ACE-inhibitor angioedema cautions)",Target gov.uk/drug-safety-update via GOV.UK Content API
+Independent Reviews,DHSC & NHS Race and Health Observatory (RHO),racehealthobservatory.org,"Reviews on pulse oximetry, optical sensors, bilirubinometers, and AI skin software",Scrape racehealthobservatory.org/publications and GOV.UK reports
+Respiratory Function,ARTP & British Thoracic Society (BTS),artp.org.uk,"GLI spirometry reference ranges, ethnic correction coefficients for FEV1 and FVC",Ingest guideline publications from artp.org.uk
+Maternal & Fetal Medicine,Perinatal Institute (GAP/GROW) & RCOG,rcog.org.uk,"Customised birthweight percentiles and symphysis-fundal height (SFH) ethnic curves",Scrape Royal College of Obstetricians and Gynaecologists guidelines
+Haematology Reference,British Society for Haematology (BSH),b-s-h.org.uk,"Benign Ethnic Neutropenia (BEN) absolute neutrophil thresholds; haemoglobinopathy and sickle cell/thalassaemia screening thresholds",Ingest BSH guidelines via b-s-h.org.uk/guidelines/
+Renal Function,UK Kidney Association (UKKA),ukkidney.org,Clinical commentary documents directing UK labs to abandon the 1.159 eGFR multiplier,Target ukkidney.org/health-professionals/guidelines
+Osteoporosis,National Osteoporosis Guideline Group (NOGG),nogg.org.uk,Clinical guidance establishing how FRAX UK models ethnicity adjustments,Scrape nogg.org.uk clinical guidance pages
+Primary Care Formularies,British National Formulary (BNF / OpenPrescribing),openprescribing.net / bnf.nice.org.uk,"Dosage adjustments, race-specific starter doses for statins (rosuvastatin), and ACEi monitoring",Query openprescribing.net/api or scrape bnf.nice.org.uk
